@@ -29,8 +29,16 @@
         "default": 0
       },
       "currency": {
-        "type": "string"
+
+  "type": "object",
+  "properties": {
+    "currency": { "enum":[ "RUR","USD"] }
+         }
+
+    }
       }
     }
   }
-}
+
+
+

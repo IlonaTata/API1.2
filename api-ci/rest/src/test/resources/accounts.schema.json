@@ -32,7 +32,7 @@
 
   "type": "object",
   "properties": {
-    "currency": { "enum":[ "RUR","USD"] }
+    "currency": { "enum":[ "RUB","USD"] }
          }
 
     }
